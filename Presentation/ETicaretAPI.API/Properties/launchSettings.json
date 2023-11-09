@@ -1,0 +1,31 @@
+{
+  "profiles": {
+    "ETicaretAPI.API": {
+        "commandName": "Project",
+        "launchBrowser": true, // Burada true olursa Browser açılacak. false olursa Prodgram ayağa kalkacak ama browser gözükmeyecek (Gençay Yıldızdan alıntı)
+        "launchUrl": "swagger",
+        "environmentVariables": {
+            "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "dotnetRunMessages": true,
+        "applicationUrl": "http://localhost:7025;http://localhost:5068"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "https://localhost:13217",
+      "sslPort": 44300
+    }
+  }
+}
